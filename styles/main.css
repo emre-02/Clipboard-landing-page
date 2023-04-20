@@ -1,0 +1,557 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+/*Header*/
+
+/*Copy*/
+.copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 72px 24px 72px 24px;
+}
+
+/*copy logo*/
+.copy__logo img {
+  width: 88px;
+  height: 88px;
+}
+
+/*copy text*/
+.copy__text {
+  text-align: center;
+}
+
+.copy__text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 48px;
+}
+
+.copy__text p {
+  font-weight: 400;
+  line-height: 32px;
+  color: gray;
+}
+
+/*copy button*/
+.copy__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.copy__button button {
+  cursor: pointer;
+  width: 100%;
+  padding: 16px 32px 16px 32px;
+  border-radius: 24px;
+  border: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*button color*/
+
+.blue {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.cyan {
+  background-color: hsl(171, 66%, 44%);
+}
+
+/*Main*/
+
+/*Snippets*/
+
+.snippets {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 72px 24px 72px 24px;
+}
+
+/*snippets text*/
+
+.snippets__text {
+  text-align: center;
+}
+
+.snippets__text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 24px;
+}
+
+.snippets__text p {
+  font-weight: 400;
+  margin-top: 24px;
+  line-height: 32px;
+  color: gray;
+}
+
+/*snippets img*/
+
+.snippets__img img {
+  width: 100%;
+}
+
+.snippets__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.snippets__img-text {
+  text-align: center;
+  margin-bottom: 0;
+}
+.snippets__img-text h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.snippets__img-text p {
+  font-weight: 400;
+  margin-top: 24px;
+  line-height: 32px;
+  color: gray;
+}
+
+/*Clipboard*/
+
+.clipboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 72px 24px 72px 24px;
+}
+
+/*clipboard text*/
+
+.clipboard__text {
+  text-align: center;
+}
+
+.clipboard__text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 24px;
+}
+
+.clipboard__text p {
+  font-weight: 400;
+  margin-top: 24px;
+  line-height: 32px;
+  color: gray;
+}
+
+/*clipboard img*/
+.clipboard__img img {
+  width: 100%;
+}
+
+/*Workflow*/
+.workflow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 72px 24px 72px 24px;
+}
+
+/*workflow text*/
+
+.workflow__text {
+  text-align: center;
+}
+
+.workflow__text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 24px;
+}
+
+.workflow__text p {
+  font-weight: 400;
+  margin-top: 24px;
+  line-height: 32px;
+  color: gray;
+}
+
+/*workflow icon*/
+
+.workflow__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blacklist,
+.plain,
+.sneak {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.blacklist h3,
+.plain h3,
+.sneak h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.blacklist p,
+.plain p,
+.sneak p {
+  color: gray;
+}
+
+/*Enterprise*/
+
+.enterprise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  padding: 72px 24px 72px 24px;
+}
+
+/*İos-Mac*/
+
+.iosmac {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 72px 24px 72px 24px;
+}
+
+/*ios-mac text*/
+.iosmac__text {
+  text-align: center;
+}
+
+.iosmac__text h2 {
+  font-size: 32px;
+  font-weight: 600;
+  padding: 48px;
+}
+
+.iosmac__text p {
+  font-weight: 400;
+  line-height: 32px;
+  color: gray;
+}
+
+/*ios-mac button*/
+.iosmac__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.iosmac__button button {
+  cursor: pointer;
+  width: 100%;
+  padding: 16px 32px 16px 32px;
+  border-radius: 24px;
+  border: none;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  text-align: center;
+  padding: 72px 24px 72px 24px;
+  background-color: #eeede8;
+}
+
+/*footer logo*/
+.footer__logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.contact,
+.policy,
+.guide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+@media screen and (min-width: 800px) {
+  /*Copy*/
+  .copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 72px 24px 72px 24px;
+  }
+
+  /*copy logo*/
+  .copy__logo img {
+    width: 88px;
+    height: 88px;
+  }
+
+  /*copy text*/
+  .copy__text {
+    text-align: center;
+  }
+
+  .copy__text h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .copy__text p {
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 32px;
+  }
+
+  /*copy button*/
+  .copy__button {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 50%;
+  }
+
+  .copy__button button {
+    width: 100%;
+    padding: 16px 32px 16px 32px;
+    border-radius: 24px;
+    border: none;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  /*Snippets*/
+
+  /*snippets text*/
+
+  .snippets__text {
+    width: 50%;
+  }
+
+  /*snippets img*/
+
+  .snippets__img img {
+    width: 100%;
+  }
+
+  .snippets__img {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .snippets__img-text {
+    text-align: left;
+    margin-bottom: 96px;
+  }
+  .snippets__img-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .snippets__img-text p {
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 32px;
+  }
+
+  /*clipboard text*/
+
+  .clipboard__text {
+    width: 50%;
+  }
+
+  /*Workflow*/
+  .workflow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 72px 24px 72px 24px;
+  }
+
+  /*workflow text*/
+
+  .workflow__text {
+    text-align: center;
+  }
+
+  .workflow__text h2 {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 24px;
+  }
+
+  .workflow__text p {
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 32px;
+  }
+
+  /*workflow icon*/
+
+  .workflow__icon {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .blacklist,
+  .plain,
+  .sneak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  /*Enterprise*/
+
+  .enterprise {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+    padding: 72px 24px 72px 24px;
+  }
+
+  /*İos-Mac*/
+  .iosmac {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 72px 24px 72px 24px;
+  }
+
+  /*ios-mac text*/
+  .iosmac__text {
+    text-align: center;
+  }
+
+  .iosmac__text h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .iosmac__text p {
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 32px;
+  }
+
+  /*ios-mac button*/
+  .iosmac__button {
+    display: flex;
+    flex-direction: unset;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    width: 50%;
+  }
+
+  .iosmac__button button {
+    width: 100%;
+    padding: 16px 32px 16px 32px;
+    border-radius: 24px;
+    border: none;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  /*Footer*/
+
+  footer {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px;
+    text-align: center;
+    padding: 72px 24px 72px 24px;
+  }
+}
