@@ -22,7 +22,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 ### Links
 
-- [Solution URL]()
+- [Solution URL](https://github.com/emre-02/Clipboard-landing-page)
 - [Live Site URL]()
 
 ## My process
